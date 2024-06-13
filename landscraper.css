@@ -1,0 +1,294 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#header{
+    background-color: black;
+}
+#header #names{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px 0px 40px;
+}
+#header #names div h1{
+    color: white;
+}
+#header #names #cont ul{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+#header #names #cont ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+#sec2{
+    color: white;
+    padding-top: 150px;
+}
+#sec2 div{
+    text-align: center;  
+}
+#sec2 div h1{
+    font-size: 50px;
+    font-weight: 1000;
+
+}
+#sec2 div p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#sec2 div button{
+    padding: 13px;
+    width: 10%;
+    background-color: green;
+    color: white;
+}
+#sec3{
+    margin-top: 300px;
+    background-color: wheat;
+    color:black;
+    padding: 50px 0px 50px;
+}
+#sec3 #landscraper{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+#sec3 #landscraper #landscaper1{
+    align-items: center;
+}
+#sec3 #landscraper #landscaper1 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+#sec3 #landscraper #landscaper1 hr{
+    margin:  0.5rem;
+    color: black;
+    width: 9%;
+}
+#sec3 #landscraper #landscaper1 button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#sec3 #landscraper #landscaper1 h1 span{
+    color: green;
+}
+#sec3 #landscraper #landscaper2{
+    display: flex;
+}
+#sec3 #landscraper #landscaper2 #img1 img{
+    width: 68%;
+    height: 249px;
+}
+#sec4{
+    background-color: green;
+}
+#sec4 #head{
+    padding: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+#sec4 #head h1{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+#sec4 #head hr{
+    margin: 0px 40rem;
+    color: white;
+}
+#sec4 #img{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+#sec4 #img div{
+    margin: 20px;
+    text-align: center;
+}
+#sec4 #img div img{
+    border-radius: 100%;
+    border: 8px solid rgba(144, 238, 144, 0.354);
+    
+}
+#sec5{
+    background-color: rgba(128, 128, 128, 0.381);
+    width: 100%;
+    text-align: center;
+}
+#sec5 #cen{
+    text-align: center;
+    
+}
+#sec5 #cen h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#sec5 #cen hr{
+
+}
+#sec5 #cen p{
+    font-size: 20px;
+    font-weight: 400
+}
+#sec5 #btn{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+#sec5 #btn button{
+    background-color: rgba(128, 128, 128, 0.507);
+    border: none;
+    padding: 10px;
+}
+#sec5 #img2{
+    width: 100%;
+
+}
+#sec5 nav{
+    width: 80%;
+    margin: auto;
+}
+#sec5 nav div{
+    margin: 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    
+}
+#sec5 nav div img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+/* #sec5 #img2 #a{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+#sec5 #img2 #b{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+#sec5 #img2 #c{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} */
+#sec6{
+    padding: 80px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#sec6 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#sec6 hr{
+    width: 5%;
+}
+#sec6 p{
+    font-size: 20px;
+}
+#sec7{
+    padding-top: 30px;
+    background-color: rgba(128, 128, 128, 0.63);
+    width: 100%;
+    
+}
+#sec7 #cen1{
+    text-align: center;
+}
+#sec7 #cen1 h1{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+#sec7 #cen1 hr{
+    width: 10%;
+}
+#sec7 #cen1 p{
+    font-size: 20px;
+    font-weight: 700;
+}
+#sec7 #address{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#sec7 #text h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+#sec7 #text{
+    text-align: center;
+}
+#sec7 #text #name input{
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+#sec7 #text #message{
+    margin-bottom: 30px;
+}
+#sec7 #text #message input{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 34%;
+}
+#sec7 #text div button{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    width: 10%;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+}
+footer div{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    gap: 20%;
+}
+.fa-brands.fa-facebook{
+    font-size: 30px;
+    
+}
+.fa-brands.fa-square-twitter{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.fa-brands.fa-google-plus-g{
+    font-size: 30px;
+    margin-left: 30px;
+}
+footer h3{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
